@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color:white;
+  font-weight:500;
+  background:whitesmoke;
+}
+
+div {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  padding: 20px;
+  border-radius:5px;
+  width:350px;
+}
+
+.form form {
+  height:170px;
+}
+
+.err {
+  color: #FF0000;
+}
